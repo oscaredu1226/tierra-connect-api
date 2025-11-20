@@ -1,0 +1,12 @@
+name: CI TierraConnect (placeholder)
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4

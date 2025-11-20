@@ -13,7 +13,8 @@ public class TecnicoService {
             new Tecnico(1, "Carlos Ramos", "Norte", "Riego"),
             new Tecnico(2, "Ana López", "Sur", "Sanidad"),
             new Tecnico(3, "Luis Fernández", "Centro", "Fertilización"),
-            new Tecnico(4, "María Gómez", "Norte", "Sanidad")
+            new Tecnico(4, "María Gómez", "Norte", "Sanidad"),
+            new Tecnico(5, "Nuevo Técnico CI/CD", "Sur", "Riego")
     );
 
     public List<Tecnico> buscar(String zona, String especialidad) {
